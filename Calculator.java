@@ -34,12 +34,22 @@ public class Calculator {
                     return;
                 }
                 break;
+
+
+
+
+                
             default:
                 System.out.println("Operator tidak valid!");
                 return;
         }
 
         System.out.println("Hasil: " + result);
+
+
         scanner.close();
+
+
+
     }
 }
